@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+
+
+
+body {
+  background-size: 100% ;
+  padding: 0;
+  margin: 0;
+  background-image: url("https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?cs=srgb&dl=photo-of-audi-parked-near-trees-1402787.jpg&fm=jpg") !important;
+}
+
+form {
+  max-width: 30em;
+  margin: 4em auto;
+  position: relative;
+  background: #f4f4f4;
+  padding: 2em 3em;
+  border-radius: 30px;
+}
+
+form h1 {
+  font-family: 'Aclonica', sans-serif;
+  color: #f90a02;
+}
+
+form input[type=text]::placeholder {
+  font-family: "Raleway";
+  color: #666;
+
+}
+
+form .data {
+  margin-top: 1em;
+}
+
+form .data li {
+  background: #fff;
+  border-left: 4px solid #0d10f9;
+  padding: 1em;
+  margin: 1em auto;
+  color: #666;
+  font-family: "Raleway";
+}
+
+form .data li i {
+  float: right;
+  color: #888;
+  cursor: pointer;
+}
+
+form .input-group-text {
+  background: #7e00f9;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  padding: 1em 23px;
+  color: #fff;
+  position: absolute;
+  right: 13px;
+  top: 68px;
+  cursor: pointer;
+}
+
+form .input-group-text i {
+  font-size: 2em;
+}
+
+form .form-control {
+  height: 3em;
+  font-family: "Raleway";
+}
+
+form .form-control:focus {
+}
+
+form .form-control:focus {
+  box-shadow: 0;
+}
+
+
